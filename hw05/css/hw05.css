@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* 초기화 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, 
+h5, h6, input, fieldset, legend, p, select, table, 
+th, td, tr, textarea, button, form {
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
+    font-family: "맑은 고딕", 돋음;
+    font-size: 12px;
+}
+
+/* 게시판 외곽 */
+#signup {
+    width: 700px;
+}
+
+/************************************** 
+    게시판 공통 
+    ***********************************/
+
+.form_group {
+    margin: 5px 5px 5px 5px;
+    padding: 5px 5px 10px 5px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.form_group .form_txt {
+    display: inline-block;
+    width: 80px;
+    
+}
+
+/**************************************/
+
+/* 우편번호칸 */
+.addblank {
+    margin: 3px 0px 0px 84px;
+    width: 400px;
+}
+/* //우편번호칸 */
+
+/* 라디오 체크박스 */
+input[type="radio"], input[type="checkbox"] {
+    margin: 0px 15px 0px 0px;
+}
+
+/* 자기소개 */
+textarea {
+    width: 410px;
+    height: 100px;
+}
+
+/* 자기소개타이틀 */
+.leftop {
+    float: left;
+}
+
+/* 버튼 */
+.button_area {
+    margin-left: -150px; 
+    padding: 5px 0px 0px 0px;
+    text-align: center;
+}
+
+.button_area button {
+    width: 60px;
+    padding: 5px 5px;
+    margin: 0px 0px 5px 0px;
+}

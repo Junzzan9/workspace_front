@@ -1,0 +1,12 @@
+@charset "UTF-8";
+
+#contents #guestbook table {
+    width: 600px;
+    margin: 0 auto;
+}
+
+#contents #guestbook table>tr>td {
+    text-align: center;
+    padding: 8px 5px 8px 5px;
+    
+}

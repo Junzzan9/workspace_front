@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+
+<html>
+    <head>
+        <title>html5</title>
+    </head>
+
+    <body>
+        <p>목차</p>
+        <ol>
+            <li><a href="./ex01.html">1</a></li>
+            <li><a href="./ex02.html">2</a></li>
+            <li><a href="./ex03.html">3</a></li>
+            <li><a href="./ex04.html">4</a></li>
+            <li><a href="./ex05.html">5. table thead tbody tr th td</a></li>
+            <li><a href="./ex06.html">6. 테이블 합치기 태그</a></li>
+            <li><a href="./ex07.html">7. thead tbody tfoot 태그</a></li>
+            <li><a href="./ex08.html">8. 테이블 종합 연습문제</a></li>
+            <li><a href="./ex09.html">9.form</a></li>
+        </ol>
+        <hr>
+
+        <form action="join.jsp" method="get">
+            <lebel for="txt-uid">아이디</lebel>
+            <input id="txt-uid" type="text" name="uid" value="" placeholder="아이디"> <br>
+    
+            <lebel for="text-upw">패스워드</lebel>
+            <input id="text-upw" type="password" name="upw" value="" placeholder="비밀번호"> <br>
+    
+            <lebel for="text-uname">이름</lebel>
+            <input id="text-uname" type="text" name="uname" value="" placeholder="이름"> <br>
+    
+            <label for="rdo-m1">1월</label>
+            <input id="rdo-m1" type="radio" name="month" value="1">
+    
+            <label for="rdo-m2">2월</label>
+            <input id="rdo-m2" type="radio" name="month" value="2">
+    
+            <label for="rdo-m3">3월</label>
+            <input id="rdo-m3" type="radio" name="month" value="3">
+            
+            <br>
+            <br>
+    
+            <label for="chk-book">독서</label>
+            <input id="chk-book" type="checkbox" name="hobby" value="book"> 
+     
+            <label for="chk-music">음악</label>
+            <input id="chk-music" type="checkbox" name="hobby" value="music">
+    
+            <label for="chk-trip">여행</label>
+            <input id="chk-trip" type="checkbox" name="hobby" value="trip">
+    
+            <br>
+            <br>
+    
+            <label for="chk-dog">개</label>
+            <input id="chk-dog" type="checkbox" name="pet" value="dog">
+    
+            <label for="chk-cat">고양이</label>
+            <input id="chk-cat" type="checkbox" checked="checked" name="pet" value="cat">
+    
+            <label for="chk-bird">새</label>
+            <input id="chk-bird" type="checkbox" name="pet" value="bird">
+    
+            <br>
+            <br>
+    
+            <label for="sel-telecom">이동통신사</label><br>
+            <select id="sel-telecom" name="telecom">
+                <option value="" selected="selectked">선택하세요</option>
+                <option value="sk">SKT</option>
+                <option value="kt">KT</option>
+                <option value="lg">LGU+</option>
+                <option value="etc">기타</option>
+    
+            </select>
+    
+            <br><br>
+            <label for="area-content">본문</label>
+            <textarea id="area-content">aaa</textarea>
+            <!-- value 사용주의 -->
+    
+            
+            
+            
+            <br><br><br>
+            <input type="hidden" name="code" value="1234">
+            <button type="submit">전송</button>
+            <button type="reset">초기화</button>
+    
+         </form>
+        
+
+    </body>
+
+</html>

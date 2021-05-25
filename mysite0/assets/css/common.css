@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+/* 초기화 */
+body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, 
+legend, p, select, table, th, td, tr, textarea, button, form {
+    margin: 0; padding: 0;
+}
+
+a:link, a:visited, a:active, a:hover {text-decoration: none; color: inherit;}
+
+ol,ul {list-style-type: none;} 
+
+body {font-family: "맑은 고딕", 돋음; font-size: 12px;}
+
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: ""; line-height: 0;}
+.clearfix:after {clear: both;}
+
+
+/* 레이아웃 */
+#wrap {width: 1000px; margin: 0px auto;}
+#header {
+    padding: 0px 0px 5px 0px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+#nav {
+    padding: 10px 0px 10px 0px;;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+#full-contents {
+    padding: 20px 10px 20px 10px;
+    background-color: #fff ;
+}
+
+#contents {
+    padding: 15px 0px 15px 0px;
+}
+
+#footer {
+    padding: 20px 0px 20px 0px;
+    background-color: #dddddd;
+    text-align: center;
+}
+
+/* header */
+#header>h1 {
+    float: left;
+    margin: 0px 0px 0px 0px;
+    font-size: 35px;
+    color: #79B30B;
+    }
+
+#header ul{
+    float: right;
+    margin-top: 30px;
+}
+
+#header ul>li {
+    float:left;
+    margin: 0px 0px 0px 7px;
+    padding: 2px 2px 2px 2px;
+    border: 1px solid #bfbfbf;
+    background-color: #79b30b;
+    color: #fff;
+    border-radius: 4px 4px 4px 4px;
+    
+}
+/* //header */
+
+/* nav */
+#nav ul>li {
+    float: left;
+    width: 249px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border-right: 1px solid #bfbfbf;
+}
+
+#nav ul>.last {border-right: none;}
+
+/* //nav */
+
+/* aside contents */
+#contents #aside {
+    margin: 0px 20px 0px 0px;
+    float: left;
+    width: 180px;
+}
+
+#contents #aside h2 {
+    padding: 20px 15px 20px 15px;
+    background-color: #79b30b;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#contents #aside ul>li {
+    margin: 5px 0px 5px 0px;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #a6a6a6;
+    font-size: 15px;
+    text-align: left;
+}
+
+/* main contents */
+#contents #main {
+    float: left;
+    width: 800px;;
+}
+
+
+/* main-head */
+#contents #main #main-head {
+    margin: 0px 0px 20px 0px;
+    padding: 0px 0px 10px 0px;
+    border-bottom: 1px solid #a6a6a6;
+}
+
+#contents #main #main-head h3 {
+    float:left;
+    margin: 20px 0px 0px 0px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#contents #main #main-head ul {
+    float: right;
+}
+
+#contents #main #main-head ul>li {
+    float: left;
+    margin: 25px 0px 0px 0px;
+    font-size: 15px;
+}
+
+#contents #main #main-head ul>li:after {
+    content: ">";
+}
+
+#contents #main #main-head ul>li.last:after {
+    content: none;
+}
+/* //main-head */
+
+/* main-body */

@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+
+
+#contents #login-box {
+    margin: 50px 0px 30px 0px;
+    padding: 0px 0px 30px 0px;
+    width: 1000px;
+    border-bottom: 1px solid #efefef;
+    
+}
+
+#contents #login-box form input {
+    margin: 0 auto;
+    padding: 8px 5px 8px 5px;
+    display: block;
+    width: 300px;
+    
+}
+
+#contents #login-foot  {
+    margin: 10px 0px 30px 0px;
+    text-align: center;
+}
+
+#contents #login-foot a {
+    margin: 0px 5px 0px 0px;
+    padding: 5px 5px 5px 5px;
+    font-size: 13px;
+    color: #fff;
+    /* border: 1px solid #000; */
+    background-color: #79B30B;
+    border-radius: 3px;
+}
+
+#contents #login-box form div div #user-login {
+    margin: 12px auto 0px auto;
+    width: 316px;
+    background-color: #79b30b;
+    border: none;
+    font-size: 17px;
+    color: #fff;
+    border-radius: 2px;
+}
